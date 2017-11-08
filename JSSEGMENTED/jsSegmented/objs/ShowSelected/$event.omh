@@ -1,0 +1,6 @@
+On evClick
+	If pClickedSegment=1
+		Do $cinst.$objs.SegmentedControl.$showselectedsegment.$assign(kTrue)
+	Else
+		Do $cinst.$objs.SegmentedControl.$showselectedsegment.$assign(kFalse)
+	End If

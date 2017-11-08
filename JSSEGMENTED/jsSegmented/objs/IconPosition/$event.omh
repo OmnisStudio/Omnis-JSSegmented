@@ -1,0 +1,6 @@
+On evClick
+	If pClickedSegment=1
+		Do $cinst.$objs.SegmentedControl.$displaystyle.$assign(kJSSegmentStyleIconAboveText) Returns #F
+	Else
+		Do $cinst.$objs.SegmentedControl.$displaystyle.$assign(kJSSegmentStyleTextAboveIcon) Returns #F
+	End If

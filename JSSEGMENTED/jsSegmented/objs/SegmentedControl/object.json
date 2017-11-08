@@ -1,0 +1,83 @@
+{
+	"ident": 1005,
+	"order": 4,
+	"objtype": "kComponent",
+	"componentlib": "jsSegmented",
+	"componentctrl": "Segmented Control",
+	"properties": {
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "kWhite",
+		"bordercolor": "kColorDefault",
+		"borderradius": "10",
+		"contextmenu": "",
+		"cssclassname": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": true,
+		"displaystyle": "kJSSegmentStyleIconAboveText",
+		"dropmode": "kAcceptNone",
+		"effect": "kJSborderPlain",
+		"enabled": true,
+		"events": "evClick",
+		"fieldstyle": "",
+		"font": 1,
+		"fontsize": 10,
+		"fontstyle": "kPlain",
+		"objlink": 65539,
+		"preventlayoutanimation": false,
+		"segmentcount": 3,
+		"selectedcolor": "RGB(221,221,255)",
+		"selectedsegment": 1,
+		"selectedtextcolor": "kColorDefault",
+		"showselectedsegment": true,
+		"textcolor": "kColorDefault",
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true
+	},
+	"multivalueproperties": {
+		"selected": 1,
+		"properties": [
+			{
+				"segmentenabled": true,
+				"segmenticonid": "k32x32+2033",
+				"segmenttext": "Information"
+			},
+			{
+				"segmentenabled": true,
+				"segmenticonid": "k32x32+1975",
+				"segmenttext": "Reports"
+			},
+			{
+				"segmentenabled": true,
+				"segmenticonid": "k32x32+1754",
+				"segmenttext": "Data"
+			}
+		]
+	},
+	"layout": {
+		"310": {
+			"left": 0,
+			"top": 0,
+			"width": 300,
+			"height": 62,
+			"dragborder": false,
+			"edgefloat": "kEFposnTopToolBar",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"600": {
+			"left": 0,
+			"top": 0,
+			"width": 560,
+			"height": 62,
+			"dragborder": false,
+			"edgefloat": "kEFposnMenuBar",
+			"errortextpos": "kJSErrorTextPosRight",
+			"visible": true
+		}
+	}
+}
